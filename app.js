@@ -30,7 +30,7 @@ app.get('/oauth-callback', (req, res) => {
     axios.post(`https://github.com/login/oauth/access_token`, body, opts);
 
 
-}
+});
 
 
 
