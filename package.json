@@ -18,7 +18,8 @@
     "eslint": "^7.9.0",
     "eslint-config-prettier": "^6.11.0",
     "husky": "^4.3.0",
-    "lint-staged": "^10.3.0"
+    "lint-staged": "^10.3.0",
+    "prettier": "^2.1.1"
   },
   "husky": {
     "hooks": {
@@ -26,11 +27,14 @@
     }
   },
   "lint-staged": {
-    "**/*.+(js|md|ts|css|sass|less|graphql|yml|yaml|scss|json|vue)": [
+    "*.{json,yml}": [
+      "prettier --write",
+      "git add"
+    ],
+    "**/*.+(js|md|ts|css|sass|less|graphql|vue)": [
       "prettier --write",
       "eslint --fix",
       "git add"
-    ],
-    "*.js": "eslint --cache --fix"
+    ]
   }
 }
