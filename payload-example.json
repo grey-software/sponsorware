@@ -1,0 +1,89 @@
+{
+  "action": "edited",
+  "sponsorship": {
+    "node_id": "MDExOlNwb25zb3JzaGlwMjE4MTk=",
+    "created_at": "2020-08-12T15:05:36+00:00",
+    "sponsorable": {
+      "login": "grey-software",
+      "id": 49475616,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ5NDc1NjE2",
+      "url": "https://api.github.com/orgs/grey-software",
+      "repos_url": "https://api.github.com/orgs/grey-software/repos",
+      "events_url": "https://api.github.com/orgs/grey-software/events",
+      "hooks_url": "https://api.github.com/orgs/grey-software/hooks",
+      "issues_url": "https://api.github.com/orgs/grey-software/issues",
+      "members_url": "https://api.github.com/orgs/grey-software/members{/member}",
+      "public_members_url": "https://api.github.com/orgs/grey-software/public_members{/member}",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49475616?v=4",
+      "description": "Creating the open source ecosystem of the future where software maintainers mentor students and build free software together!"
+    },
+    "maintainer": {
+      "login": "grey-software",
+      "id": 49475616,
+      "node_id": "MDEyOk9yZ2FuaXphdGlvbjQ5NDc1NjE2",
+      "url": "https://api.github.com/orgs/grey-software",
+      "repos_url": "https://api.github.com/orgs/grey-software/repos",
+      "events_url": "https://api.github.com/orgs/grey-software/events",
+      "hooks_url": "https://api.github.com/orgs/grey-software/hooks",
+      "issues_url": "https://api.github.com/orgs/grey-software/issues",
+      "members_url": "https://api.github.com/orgs/grey-software/members{/member}",
+      "public_members_url": "https://api.github.com/orgs/grey-software/public_members{/member}",
+      "avatar_url": "https://avatars2.githubusercontent.com/u/49475616?v=4",
+      "description": "Creating the open source ecosystem of the future where software maintainers mentor students and build free software together!"
+    },
+    "sponsor": {
+      "login": "ArsalaBangash",
+      "id": 19757203,
+      "node_id": "MDQ6VXNlcjE5NzU3MjAz",
+      "avatar_url": "https://avatars0.githubusercontent.com/u/19757203?v=4",
+      "gravatar_id": "",
+      "url": "https://api.github.com/users/ArsalaBangash",
+      "html_url": "https://github.com/ArsalaBangash",
+      "followers_url": "https://api.github.com/users/ArsalaBangash/followers",
+      "following_url": "https://api.github.com/users/ArsalaBangash/following{/other_user}",
+      "gists_url": "https://api.github.com/users/ArsalaBangash/gists{/gist_id}",
+      "starred_url": "https://api.github.com/users/ArsalaBangash/starred{/owner}{/repo}",
+      "subscriptions_url": "https://api.github.com/users/ArsalaBangash/subscriptions",
+      "organizations_url": "https://api.github.com/users/ArsalaBangash/orgs",
+      "repos_url": "https://api.github.com/users/ArsalaBangash/repos",
+      "events_url": "https://api.github.com/users/ArsalaBangash/events{/privacy}",
+      "received_events_url": "https://api.github.com/users/ArsalaBangash/received_events",
+      "type": "User",
+      "site_admin": false
+    },
+    "privacy_level": "private",
+    "tier": {
+      "node_id": "MDEyOlNwb25zb3JzVGllcjM5MzEz",
+      "created_at": "2020-08-12T07:46:30Z",
+      "description": "Thank you in believing in our mission to create the open source education ecosystem of the future where maintainers mentor students and build free software together!\r\n\r\nYour contrbution helps us create useful software for humanity, and mentor the next generation of student software creators.",
+      "monthly_price_in_cents": 2000,
+      "monthly_price_in_dollars": 20,
+      "name": "$20 a month"
+    }
+  },
+  "changes": {
+    "privacy_level": {
+      "from": "private"
+    }
+  },
+  "sender": {
+    "login": "ArsalaBangash",
+    "id": 19757203,
+    "node_id": "MDQ6VXNlcjE5NzU3MjAz",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/19757203?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/ArsalaBangash",
+    "html_url": "https://github.com/ArsalaBangash",
+    "followers_url": "https://api.github.com/users/ArsalaBangash/followers",
+    "following_url": "https://api.github.com/users/ArsalaBangash/following{/other_user}",
+    "gists_url": "https://api.github.com/users/ArsalaBangash/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/ArsalaBangash/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/ArsalaBangash/subscriptions",
+    "organizations_url": "https://api.github.com/users/ArsalaBangash/orgs",
+    "repos_url": "https://api.github.com/users/ArsalaBangash/repos",
+    "events_url": "https://api.github.com/users/ArsalaBangash/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/ArsalaBangash/received_events",
+    "type": "User",
+    "site_admin": false
+  }
+}

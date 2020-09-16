@@ -1,0 +1,272 @@
+[
+  {
+    "sponsor_handle": "ArsalaBangash",
+    "sponsor_profile_name": "Arsala Grey",
+    "sponsor_public_email": "arsalabangash@gmail.com",
+    "sponsorship_started_on": "2020-08-12T11:05:36.000-04:00",
+    "tier_name": "$20 a month",
+    "is_public": "true",
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HFLWKEQsq43iHhXaKMjCMxK",
+        "tier_name": "$20 a month",
+        "tier_monthly_amount": "$20.00",
+        "processed_amount": "$20.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-12T11:05:48.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "OsamaSaleh289",
+    "sponsor_profile_name": null,
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-13T12:02:40.000-04:00",
+    "tier_name": "$20 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HFit5EQsq43iHhXeYWGL6IC",
+        "tier_name": "$20 a month",
+        "tier_monthly_amount": "$20.00",
+        "processed_amount": "$20.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-13T12:02:49.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "bangashghaffar",
+    "sponsor_profile_name": null,
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-13T17:38:11.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HFo7mEQsq43iHhXVk0HJU7a",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-13T17:38:21.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "daveavi",
+    "sponsor_profile_name": "Avi Dave",
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-14T12:27:00.000-04:00",
+    "tier_name": "$20 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HG5kFEQsq43iHhXYOOYB6ot",
+        "tier_name": "$20 a month",
+        "tier_monthly_amount": "$20.00",
+        "processed_amount": "$20.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-14T12:27:15.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "SantiagoOrdonez",
+    "sponsor_profile_name": "Santiago Ordonez Arias",
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-16T22:17:40.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HGxuuEQsq43iHhXTVOfow5t",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": true,
+        "status": "settled",
+        "transaction_date": "2020-08-16T22:17:52.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "distinctmind",
+    "sponsor_profile_name": "Jeanlouis Rebello",
+    "sponsor_public_email": "jeanlouisrebello@gmail.com",
+    "sponsorship_started_on": "2020-08-20T00:16:04.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HI5CFEQsq43iHhXBGoyFvQc",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-20T00:16:22.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "milindvishnoi",
+    "sponsor_profile_name": "Milind V.",
+    "sponsor_public_email": "milind.vishnoi@mail.utoronto.ca",
+    "sponsorship_started_on": "2020-08-20T14:53:35.000-04:00",
+    "tier_name": "$20 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HIItKEQsq43iHhXdqlCALPF",
+        "tier_name": "$20 a month",
+        "tier_monthly_amount": "$20.00",
+        "processed_amount": "$20.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-20T14:53:47.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "cmqten",
+    "sponsor_profile_name": "Carl",
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-21T19:17:02.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": false,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HIjTqEQsq43iHhX5ydfKMPn",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-21T19:17:13.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "ninaricci29",
+    "sponsor_profile_name": "Nina Ricci Lu",
+    "sponsor_public_email": "itsninaricci.lu@mail.utoronto.ca",
+    "sponsorship_started_on": "2020-08-29T14:45:17.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HLZ3EEQsq43iHhXdydR9lOI",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-29T14:45:27.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "lunaroyster",
+    "sponsor_profile_name": "Arnav Bansal",
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-30T00:09:37.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HLhrMEQsq43iHhXlqGTQeTE",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-30T00:09:49.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "khans218",
+    "sponsor_profile_name": null,
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-08-30T18:49:05.000-04:00",
+    "tier_name": "$5 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HLzKiEQsq43iHhX1tx5ZoK7",
+        "tier_name": "$5 a month",
+        "tier_monthly_amount": "$5.00",
+        "processed_amount": "$5.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-30T18:49:17.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "saraelshawa",
+    "sponsor_profile_name": "Sara El-Shawa",
+    "sponsor_public_email": "selshawa96@gmail.com",
+    "sponsorship_started_on": "2020-08-30T19:00:56.000-04:00",
+    "tier_name": "$2 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": [
+      {
+        "transaction_id": "ch_1HLzWEEQsq43iHhXlDAdfWZ3",
+        "tier_name": "$2 a month",
+        "tier_monthly_amount": "$2.00",
+        "processed_amount": "$2.00",
+        "is_prorated": false,
+        "status": "settled",
+        "transaction_date": "2020-08-30T19:01:10.000-04:00"
+      }
+    ]
+  },
+  {
+    "sponsor_handle": "MGMoose",
+    "sponsor_profile_name": null,
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-09-04T04:18:14.000-04:00",
+    "tier_name": "$0 a month",
+    "is_public": false,
+    "is_yearly": false,
+    "transactions": []
+  },
+  {
+    "sponsor_handle": "hiimchrislim",
+    "sponsor_profile_name": "Chris Lim",
+    "sponsor_public_email": "hello@hiimchrislim.co",
+    "sponsorship_started_on": "2020-09-04T22:34:44.000-04:00",
+    "tier_name": "$0 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": []
+  },
+  {
+    "sponsor_handle": "AngelaKwan",
+    "sponsor_profile_name": "Angela Kwan",
+    "sponsor_public_email": null,
+    "sponsorship_started_on": "2020-09-07T02:17:09.000-04:00",
+    "tier_name": "$0 a month",
+    "is_public": true,
+    "is_yearly": false,
+    "transactions": []
+  }
+]
