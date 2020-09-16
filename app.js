@@ -85,7 +85,7 @@ app.post('/sponsorsWebhook', async (req, res) => {
 
   async function callback(error, response, body) {
     if (!error && response.statusCode == 200) {
-      console.log('Success');
+      console.log('200 OK');
     }
   }
   request(options, callback);
