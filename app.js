@@ -1,12 +1,31 @@
 const express = require('express');
+const mongoose = require('mongoose');
 var request = require('request');
 const bodyParser = require('body-parser');
 const app = express();
-const port = 6000;
-var fs = require('fs');
+const User = require('./user');
+
+//Later change this so that you don't hard code the user
+mongoose
+  .connect(
+    'mongodb+srv://sponsordatacluster.pmien.mongodb.net/retryWrites=true&w=majority/SponsorDataCluster',
+    {
+      dbName: 'SponsorDataCluster',
+      user: 'OsamaSaleh289',
+      pass: 'punkKUVoJWPmNVVU',
+      useNewUrlParser: true,
+      useUnifiedTopology: true,
+    },
+  )
+  .then(() => {
+    console.log('MongoDB Connected');
+  });
+
+const port = 8080;
 var sponsorships = require('./sponsorships-August-2020.json');
 
 app.use(bodyParser.json({type: 'application/vnd.api+json'}));
+
 app.post('/sponsorsWebhook', async (req, res) => {
   var payload = '';
   await req.on('readable', () => {
@@ -22,6 +41,14 @@ app.post('/sponsorsWebhook', async (req, res) => {
         privacy: payload['sponsorship']['privacy_level'],
       };
 
+      const newUser = new User({
+        _id: new mongoose.Types.ObjectId(),
+        login: payload['sponsorship']['sponsor']['login'],
+        tier_name: payload['sponsorship']['tier']['name'],
+        creation_date: payload['sponsorship']['created_at'],
+        privacy: payload['sponsorship']['privacy_level'],
+      });
+
       const sponsor = sponsorships.find(
         (item) => item['sponsor_handle'] === user.login,
       );
@@ -30,6 +57,16 @@ app.post('/sponsorsWebhook', async (req, res) => {
         //User doesn't exist in our database
         case 'created': {
           sponsorships.push(user);
+          newUser
+            .save()
+            .then((result) => {
+              console.log(result);
+              //res.send("Sponsor added to database");
+            })
+            .catch((err) => {
+              console.log(err);
+              //res.status(400).send("Unable to save user");
+            });
           break;
         }
 
@@ -63,7 +100,7 @@ app.post('/sponsorsWebhook', async (req, res) => {
           }
           break;
       }
-      var jsonContent = JSON.stringify(sponsorships);
+      /*var jsonContent = JSON.stringify(sponsorships);
       fs.writeFile(
         'sponsorships-August-2020.json',
         jsonContent,
@@ -74,7 +111,7 @@ app.post('/sponsorsWebhook', async (req, res) => {
             return console.log(err);
           }
         },
-      );
+      );*/
     }
   });
   req.on('end', () => {
@@ -85,7 +122,7 @@ app.post('/sponsorsWebhook', async (req, res) => {
 
   async function callback(error, response, body) {
     if (!error && response.statusCode == 200) {
-      console.log('200 OK');
+      res.status(200).json({Result: '200'});
     }
   }
   request(options, callback);
